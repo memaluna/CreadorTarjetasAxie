@@ -1,0 +1,134 @@
+body {
+  background: rgb(97, 97, 97) !important;
+}
+
+#contenedor {
+  display: block;
+  align-content: center;
+}
+.Cabecera {
+  text-align: center;
+}
+
+.plumita {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+#idAxie {
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+.font-game {
+  font-family: Changa One, cursive;
+}
+.axieFoto {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.numeroEnergia {
+  font-family: Changa One, cursive;
+  font-size: 9px;
+  stroke-width: 0.5px;
+  stroke: #9b9b9b;
+  fill: #ffffff;
+}
+.nombreCarta {
+  font-family: Changa One, cursive;
+  font-size: 5px;
+  stroke-width: 0px;
+  stroke: #9b9b9b;
+  fill: #ffffff;
+}
+
+.numAtaque,
+.numDef {
+  font-family: Changa One, cursive;
+  font-size: 9px;
+  stroke-width: 0.5px;
+  stroke: #9b9b9b;
+  fill: #ffffff;
+}
+
+.descCarta {
+  font-family: Changa One, cursive;
+  font-size: 4px;
+  color: white;
+  inline-size: 50px;
+}
+.numStat {
+  font-family: Changa One, cursive;
+  font-size: 50px;
+  stroke-width: 1px;
+  stroke: #9b9b9b;
+  fill: #ffffff;
+}
+.tituloCartas,
+.tituloPartes,
+.tituloStats {
+  stroke-width: 2px;
+}
+.tarjeta {
+  display: none;
+}
+.ContenedorTarjeta {
+  display: flex;
+  justify-content: center;
+}
+.plumaGrande {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  z-index: -2;
+}
+.mechGrande {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+  z-index: -2;
+}
+.plantaGrande {
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  z-index: -2;
+}
+.reptilGrande {
+  position: absolute;
+  top: 630px;
+  right: 150px;
+  z-index: -2;
+}
+.beastGrande {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: -4;
+}
+.bichoGrande {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  z-index: -3;
+}
+.duskGrande {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  z-index: -2;
+}
+.pezGrande {
+  position: absolute;
+  top: 630px;
+  left: 150px;
+  z-index: -2;
+}
+.dawnGrande {
+  position: absolute;
+  top: 800px;
+  z-index: -2;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
